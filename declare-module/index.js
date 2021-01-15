@@ -1,0 +1,12 @@
+let type1 = require('./modules/type1')
+let type2 = require('./modules/type2')
+let type3 = require('./modules/type3')
+let type4 = require('./modules/type4')
+let type5 = require('./modules/type5')
+
+console.log(type1())
+console.log(type2.callType())
+console.log(type3.callType())
+let objType4 = new type4()
+console.log(objType4.callType())
+console.log(type5.callType())
